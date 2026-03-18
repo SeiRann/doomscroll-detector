@@ -1,0 +1,7 @@
+{
+  "manifest_version": 2,
+  "name": "Doomscroll Detector",
+  "version": "0.0.1",
+
+  "description": "An extension that dtects that you are doomscrolling and makes you stop"
+}
