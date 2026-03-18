@@ -10,5 +10,9 @@
       "matches": ["*://*.mozilla.org/*"],
       "js": ["borderify.js"]
     }
-  ]
+  ],
+
+  "icons": {
+    "48": "icons/border-48.png"
+  }
 }
