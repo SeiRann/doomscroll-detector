@@ -3,5 +3,16 @@
   "name": "Doomscroll Detector",
   "version": "0.0.1",
 
-  "description": "An extension that dtects that you are doomscrolling and makes you stop"
+  "description": "An extension that dtects that you are doomscrolling and makes you stop",
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.mozilla.org/*"],
+      "js": ["borderify.js"]
+    }
+  ],
+
+  "icons": {
+    "48": "icons/border-48.png"
+  }
 }
